@@ -1,0 +1,71 @@
+NOISE SOURCE
+Backgrounds folder: E:\PipeSound\Examples\SoundbankSnippet\Taps\Tap_1\Background_Observations
+
+
+SYNTHETIC SIGNAL
+Background noise file: Background_0
+Background random selection: 0
+Duration: 5.000 (s)
+Clean signal time: [1.000, 4.000] (s)
+Clean signal components (Hz): 
+   Centre: 1000.0, Band: 1000.0
+   Centre: 6000.0, Band: 2500.0
+S/N dB: -20.0 (dB)
+
+
+FILTER OF THE OUTPUT SAVED
+AUDIO FILES:
+Source signal:              E:\PipeSound\Examples\NoiseFilter\SignalNoiseTest_-20dB\noisySignal_unfiltered.wav
+Synthesis reference signal: E:\PipeSound\Examples\NoiseFilter\SignalNoiseTest_-20dB\noisySignal_unfiltered.wav
+
+MASK SETTINGS:
+Backgrounds source folders = E:\PipeSound\Examples\SoundbankSnippet\Taps\Tap_1\Background_Observations
+Keepout backgrounds:
+   Background_0
+Background file name: background.wav
+Random selection: 0
+Disjoint sets: 1
+Check set: 25 (percent)
+Initial trim time: 0.100 (s)
+Window duration: 0.050 (s)
+Window overlap: 50.0 (percent)
+Std increase step: 0.050
+STD above the mean: 1.70 
+Noise excess: 0.867 (percent)
+ 
+FILTER SETTINGS:
+Sample rate: 48000 (samples per second)
+Frequency density interval length: 200.0 (Hz)
+Time density interval length: 0.4 (s) 
+Frequency density threshold min:  0.30
+Frequency density threshold max:  0.75
+Time density threshold min:  0.30
+Time density threshold max:  0.30
+Frequency smooth interval length: 300.0 (Hz)
+Time smooth interval length: 0.250 (s)
+Filter order: 239
+Convolution: Double forward/backward
+
+
+PERFORMANCE
+
+Performance table:
+noiseExcess         stdExcessFactor     singleConv          freqSmooth          snGain              signalAttenuation   noiseAttenuation    
+ 1.000               1.700               F/B                 300.000             32.944              0.834               33.778             
+ 1.000               1.700               F                   300.000             32.084              0.538               32.622             
+ 1.000               1.700               F/B                 500.000             32.990              0.922               33.912             
+ 1.000               1.700               F                   500.000             32.225              0.588               32.814             
+ 2.000               1.550               F/B                 300.000             32.716              0.730               33.447             
+ 2.000               1.550               F                   300.000             29.271              0.462               29.733             
+ 2.000               1.550               F/B                 500.000             32.767              0.808               33.575             
+ 2.000               1.550               F                   500.000             29.539              0.507               30.046             
+ 5.000               1.350               F/B                 300.000             32.160              0.620               32.780             
+ 5.000               1.350               F                   300.000             24.448              0.381               24.829             
+ 5.000               1.350               F/B                 500.000             32.024              0.689               32.714             
+ 5.000               1.350               F                   500.000             23.728              0.422               24.150             
+
+Comparison table:
+noiseExcess         stdExcessFactor     singleConv          freqSmooth          snGain              signalAttenuation   noiseAttenuation    
+ 1.000               1.700               F                   500.000             32.225              0.588               32.814             
+ 2.000               1.550               F                   500.000             29.539              0.507               30.046             
+ 5.000               1.350               F                   500.000             23.728              0.422               24.150             

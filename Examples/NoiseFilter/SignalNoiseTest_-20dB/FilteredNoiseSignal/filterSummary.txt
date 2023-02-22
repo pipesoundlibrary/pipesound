@@ -1,0 +1,32 @@
+AUDIO FILES:
+Source signal:              E:\PipeSound\Examples\NoiseFilter\SignalNoiseTest_-20dB\noiseSignal_unfiltered.wav
+Synthesis reference signal: E:\PipeSound\Examples\NoiseFilter\SignalNoiseTest_-20dB\noisySignal_unfiltered.wav
+
+MASK SETTINGS:
+Backgrounds source folders = E:\PipeSound\Examples\SoundbankSnippet\Taps\Tap_1\Background_Observations
+Keepout backgrounds:
+   Background_0
+Background file name: background.wav
+Random selection: 0
+Disjoint sets: 1
+Check set: 25 (percent)
+Initial trim time: 0.100 (s)
+Window duration: 0.050 (s)
+Window overlap: 50.0 (percent)
+Std increase step: 0.050
+STD above the mean: 1.70 
+Noise excess: 0.867 (percent)
+ 
+FILTER SETTINGS:
+Sample rate: 48000 (samples per second)
+Frequency density interval length: 200.0 (Hz)
+Time density interval length: 0.4 (s) 
+Frequency density threshold min:  0.30
+Frequency density threshold max:  0.75
+Time density threshold min:  0.30
+Time density threshold max:  0.30
+Frequency smooth interval length: 300.0 (Hz)
+Time smooth interval length: 0.250 (s)
+Filter order: 239
+Convolution: Double forward/backward
+Figures output time: 2.500 (s)
